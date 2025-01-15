@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab5</RootNamespace>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql" />
+      <PackageReference Include="Swashbuckle.AspNetCore" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\AdapterDataBase\AdapterDataBase.csproj" />
+      <ProjectReference Include="..\..\BisnessLogic\BisnessLogic.csproj" />
+      <ProjectReference Include="..\..\Controllerss\Controllerss.csproj" />
+      <ProjectReference Include="..\..\Ports\Ports.csproj" />
+    </ItemGroup>
+
+</Project>
